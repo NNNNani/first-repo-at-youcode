@@ -25,14 +25,14 @@ let dureeEnMois = 44 ;
 let revenuMensuel = 12000 ;
 
 
-let mensualité = montantEmprunte / dureeEnMois
-let Mensualité = revenuMensuel * 0.30
+let mensualité = montantEmprunte / dureeEnMois ;
+let Mensualité = revenuMensuel * 0.30 ;
 
 
 if (mensualité <= Mensualité){
-    console.log(`Prêt accordé. Mensualité : ${mensualité} MAD`)
+    console.log(`Prêt accordé. Mensualité : ${mensualité} MAD`) ;
 } else if (revenuMensuel > 10000 ) {
-    console.log(`proposez d'augmenter la durée ou  Prêt refusé`)
+    console.log(`proposez d'augmenter la durée ou  Prêt refusé`) ;
 }else{
-    console.log(`Prêt refusé`)
+    console.log(`Prêt refusé`) ;
 }
