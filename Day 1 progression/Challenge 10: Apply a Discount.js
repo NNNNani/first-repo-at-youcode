@@ -7,3 +7,4 @@ if ( totalPrice >= 500 ) {
     finalPrice = totalPrice
 }
 console.log(`Final price: ${finalPrice} MAD`);
+
