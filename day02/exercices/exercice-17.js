@@ -18,14 +18,22 @@
 
 
 let totalItems = 45 ;
-let affiche = 10 ; 
-let page = 1 ; 
+// let affiche = 10 ; 
+let page = 0 ; 
 
 
 while ( totalItems > 0){
-    let temps = Math.min(totalItems , affiche ) ;
-    console.log(`Scraping ${page} 2 ${temps}`);
-    page ++ ;
+    if ( totalItems >= 10)
+    {
+        totalItems -= 10;
+        page++;
+        console.log(page, "=>", 10);
+    }
+    if (totalItems < 10) {
+        page++;
+        console.log(page, "=>", totalItems)
+        totalItems = 0;
+    }
 }
 
 // mazal mabkha ykhdam 

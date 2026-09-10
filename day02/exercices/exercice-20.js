@@ -15,3 +15,17 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+for ( let i = 100 ; i <= 999 ; i++ ){
+    let st = i.toString() ;
+
+    let a = Number(st[0]) ;
+    let b = Number(st[1]) ;
+    let c = Number(st[2]) ;
+
+    let s = (a * a * a) + (b * b * b) + (c * c * c) ;
+    if ( s == i ){
+        console.log(i) ;
+        
+}
+}

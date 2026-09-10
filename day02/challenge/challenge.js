@@ -22,3 +22,27 @@
 
 // Découpe d'abord le problème en petites étapes.
 // TODO: écris ta solution ici.
+
+
+let code = 739 ;
+let essai = 0 ;
+let tmp = 0;
+
+
+for ( let c1 = 0 ; c1 <=9 ; c1++ ){
+    for ( let c2 = 0 ; c2 <= 9 ; c2 ++ ){
+        for (let c3 = 0 ; c3 <= 9 ; c3++){
+            let codetest = (c1 * 100 + c2 * 10 + c3)
+            if (code == codetest) {
+                essai++;
+                console.log('code trouve ')
+                tmp = essai;
+                break;
+            }
+            essai++
+        } 
+    }
+}
+
+console.log(tmp)
+// console.log(tmp-1)

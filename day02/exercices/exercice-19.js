@@ -16,3 +16,20 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+let T = 8 ;
+let E = "" ;
+
+for ( let i = 0 ; i < T ; i++ ){
+    for ( let j = 0 ; j < T ; j++ ){
+        if ( ( i + j ) % 2 == 0 ){
+            E += " " ;
+        }else{
+            E += "#" ; 
+        }
+    }
+    E += "\n" ;
+}
+console.log(E) ;
+
