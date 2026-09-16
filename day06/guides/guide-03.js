@@ -1,16 +1,12 @@
 /**
  * JOUR 06 — GUIDE 03
- * Manipulation (Ajouter et Supprimer)
+ * Parcourir un Objet
  *
  * OBJECTIF
- * Vous avez une file d'attente file = ["Alice", "Bob", "Charlie"]. "Alice" est servie (elle sort de la file par l'avant), et "David" rejoint la file (à l'arrière).
+ * Affichez toutes les clés et leurs valeurs de l'objet voiture sous la forme "clé : valeur".
  *
  * Aide : consulte ../02-guides.md seulement si tu bloques.
  */
 'use strict';
 
- let file = ["Alice", "Bob", "Charlie"]
-
- file.shift()
- file.push("David")
- console.log(file)
+// TODO: écris ta solution ici.

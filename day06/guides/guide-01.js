@@ -1,17 +1,12 @@
 /**
  * JOUR 06 — GUIDE 01
- * Accès et Modification
+ * Créer un objet et y accéder
  *
  * OBJECTIF
- * Créez un tableau fruits = ["Pomme", "Banane", "Orange"]. Changez "Banane" par "Mangue" et affichez le dernier élément du tableau.
+ * Créez un objet voiture avec la marque "Toyota", le modèle "Corolla" et l'année 2020. Affichez la marque.
  *
  * Aide : consulte ../02-guides.md seulement si tu bloques.
  */
 'use strict';
 
-let fruits = ["Pomme", "Banane", "Orange"]
-
-fruits.splice(1, 1, "Mangue")
-
-console.log(fruits);
-
+// TODO: écris ta solution ici.

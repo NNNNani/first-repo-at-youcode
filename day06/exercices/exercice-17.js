@@ -1,14 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
  * JOUR 06 · EXERCICE 17 · NIVEAU 3 : DÉFI (AVANCÉS)
- * OCCURRENCES
+ * NETTOYAGE DE SCRAPING AVEC DES OBJETS
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez une fonction qui prend un tableau de mots ["pomme", "banane", "pomme", "orange", "banane", "pomme"]. Comptez combien de fois chaque élément apparaît. (Vous pouvez afficher : "pomme: 3, banane: 2, orange: 1").
+ * Vous avez scrappé une liste de prix : [{ article: "PC", prix: "1500$" }, { article: "Souris", prix: "25$" }]. Écrivez une fonction qui modifie les objets pour que le prix devienne un vrai Number (enlever le "$").
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-17
- * ▶️ Commande : node day05/exercices/exercice-17.js
+ * ▶️ Commande : node day06/exercices/exercice-17.js
  */
 'use strict';
 
@@ -16,22 +16,17 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
-function count(tab) {
-    let obj = [] ;
-    let i = 0 ;
 
-    while ( i < tab.length ) {
-        let mots =  tab[i] ;
+let produits = [
+    { article: "PC", prix: "1500$" },
+    { article: "Souris", prix: "25$" }
+]
 
-        if (obj[ mots ]) {
-            obj[ mots ] ++ ;
-        }else{
-            obj[mots] = 1 ;
-        }
-        i++ ;
+function nettoyerPrix(liste) {
+    for (let v of liste) {
+        v.prix = Number(v.prix.replace("$", "")) ;
     }
-    return obj ;
+    return liste ;
 }
 
-let t = ["pomme", "banane", "pomme", "orange", "banane", "pomme"] ;
-console.log(count(t)) ; 
+console.log(nettoyerPrix(produits)) ;

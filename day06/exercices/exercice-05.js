@@ -1,14 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
  * JOUR 06 · EXERCICE 05 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * CHERCHER UNE VALEUR (INCLUDES)
+ * EXTRACTION DES CLÉS
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Vérifiez si "Marrakech" est présent dans le tableau villes = ["Rabat", "Casablanca", "Tanger"]. Affichez true ou false.
+ * Utilisez Object.keys() sur votre objet utilisateur pour récupérer un tableau contenant toutes ses clés, et affichez sa longueur.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-05
- * ▶️ Commande : node day05/exercices/exercice-05.js
+ * ▶️ Commande : node day06/exercices/exercice-05.js
  */
 'use strict';
 
@@ -17,14 +17,11 @@
 // TODO: écris ta solution ici.
 
 
-let villes = [ "Rabat" , "Casablanca" , "Tanger" ] ; 
-let v = 0 ;
-let r = false ; 
-
-while(v < villes.length ){
-    if (villes[v] == "Marrakech" ){
-        r = true ; 
-    }
-    v++ ; 
+const utilisateur={
+  nom:"Anass",
+  age:23,
+  estAdmin:false
 }
-console.log(r) ;
+let tab=Object.keys(utilisateur);
+console.log(tab)
+console.log(tab.length)

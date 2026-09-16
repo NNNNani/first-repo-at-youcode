@@ -1,14 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
  * JOUR 06 · EXERCICE 04 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * PARCOURIR AVEC UN `FOR` CLASSIQUE
+ * VÉRIFICATION D'EXISTENCE
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez nombres = [10, 20, 30, 40]. Utilisez une boucle for (avec i = 0 jusqu'à length) pour afficher chaque nombre multiplié par 2.
+ * Créez une fonction possedePropriete(obj, cle) qui retourne true si la clé existe dans l'objet, sinon false. *(Indice : vous pouvez utiliser l'opérateur in ou vérifier si c'est !== undefined)*.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-04
- * ▶️ Commande : node day05/exercices/exercice-04.js
+ * ▶️ Commande : node day06/exercices/exercice-04.js
  */
 'use strict';
 
@@ -17,8 +17,12 @@
 // TODO: écris ta solution ici.
 
 
-
-let  nombres = [10, 20, 30, 40] ; 
-
-for ( let i = 0 ; i < nombres.length ; i++ ){ console.log( nombres [i]  * 2 ) ; 
+const utilisateur={
+  nom:"Anass",
+  age:23,
+  estAdmin:false
 }
+function possedePropriete(obj, cle){
+return cle in obj
+}
+console.log(possedePropriete(utilisateur,"nom"))

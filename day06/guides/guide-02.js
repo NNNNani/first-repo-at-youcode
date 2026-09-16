@@ -1,22 +1,12 @@
 /**
  * JOUR 06 — GUIDE 02
- * Parcourir avec for...of
+ * L'accès dynamique
  *
  * OBJECTIF
- * Vous avez notes = [12, 15, 8, 19]. Calculez la moyenne des notes en parcourant le tableau.
+ * On vous donne une variable let cleRecherche = "modele";. Comment utiliser cette variable pour afficher la valeur correspondante dans l'objet voiture ?
  *
  * Aide : consulte ../02-guides.md seulement si tu bloques.
  */
 'use strict';
 
- function calcul(cal){
-    let i = 0
-    let somme = 0
-    while(i < cal.length){
-        somme += cal[i]
-        i++
-    }
-    return somme / cal.length
- }
- console.log(calcul([12, 15, 8, 19]));
- 
+// TODO: écris ta solution ici.

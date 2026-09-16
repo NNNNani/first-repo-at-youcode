@@ -5,10 +5,10 @@
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Prenez le tableau précédent. Retirez le dernier invité (Amine) et affichez le tableau mis à jour.
+ * Supprimez la propriété estAdmin de l'objet utilisateur.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-03
- * ▶️ Commande : node day05/exercices/exercice-03.js
+ * ▶️ Commande : node day06/exercices/exercice-03.js
  */
 'use strict';
 
@@ -17,9 +17,11 @@
 // TODO: écris ta solution ici.
 
 
-
-let tabl = ["Yassine", "Sara","Amine"] ; 
-
-tabl.pop() ;
-
-console.log(tabl) ; 
+const utilisateur={
+  nom:"Anass",
+  age:23,
+  estAdmin:false
+}
+console.log(utilisateur)
+delete utilisateur.estAdmin
+console.log(utilisateur)

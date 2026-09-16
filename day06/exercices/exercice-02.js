@@ -1,14 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
  * JOUR 06 · EXERCICE 02 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * AJOUT DYNAMIQUE
+ * MISE À JOUR
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez un tableau vide invites = []. Ajoutez-y successivement "Yassine", "Sara", puis "Amine" en utilisant des méthodes de tableau.
+ * Changez l'âge de l'utilisateur précédent pour l'augmenter de 1, et ajoutez-lui une propriété email.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-02
- * ▶️ Commande : node day05/exercices/exercice-02.js
+ * ▶️ Commande : node day06/exercices/exercice-02.js
  */
 'use strict';
 
@@ -16,9 +16,14 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
- 
-let invites = [] ; 
 
-invites.push( "Yassine" , "Sara" ,"Amine" ) ;
- 
-console.log(invites) ;
+const utilisateur={
+  nom:"Anass",
+  age:23,
+  estAdmin:false
+}
+console.log(utilisateur)
+utilisateur.email="triat.code@gmail.com"
+console.log(utilisateur)
+utilisateur.age+=1
+console.log(utilisateur)

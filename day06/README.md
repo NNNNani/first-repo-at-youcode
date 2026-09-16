@@ -1,11 +1,11 @@
-# 📅 Jour 06 — Stocker et parcourir plusieurs valeurs (Tableaux)
+# 📅 Jour 06 — Représenter une entité (Objets)
 
 > [!IMPORTANT]
 > Travaille dans l'ordre, teste chaque solution et crée plusieurs commits pendant la journée.
 
 ## 🎯 Objectif de la journée
 
-Jusqu'à présent, une variable = une valeur. Mais comment gérer une liste de 50 notes d'étudiants ? Déclarer `note1`, `note2`, ... `note50` serait un cauchemar. Les **Tableaux (Arrays)** sont des variables spéciales capables de contenir plusieurs éléments à la fois, ordonnés par un "index" (une position). Apprendre à ajouter, supprimer, parcourir et transformer des éléments dans un tableau est une compétence fondamentale en développement.
+Les tableaux sont parfaits pour des listes ordonnées, mais que se passe-t-il si vous voulez représenter un "Étudiant" avec un prénom, un âge et une note ? Utiliser un tableau `["Yassine", 25, 18]` n'est pas clair (à quoi correspond l'index 1 ?). C'est là que les **Objets (Objects)** interviennent. En JavaScript, un objet est une collection de paires "clé-valeur", permettant de modéliser des entités complexes de la vie réelle de manière sémantique.
 
 ## 🧭 Parcours
 
@@ -21,7 +21,7 @@ Jusqu'à présent, une variable = une valeur. Mais comment gérer une liste de 5
 Depuis la racine du dépôt, exécute un exercice avec :
 
 ```bash
-node day05/exercices/exercice-01.js
+node day06/exercices/exercice-01.js
 ```
 
 Remplace `01` par le numéro souhaité. Pour contrôler toute ta progression :
@@ -44,7 +44,7 @@ Après chaque groupe d'exercices :
 
 ```bash
 git status
-git add day05
+git add day06
 git commit -m "jour 06 : terminer le niveau 1"
 git push
 ```

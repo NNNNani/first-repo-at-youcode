@@ -9,47 +9,47 @@
 
 | Fait | Nº | Exercice | Niveau | Fichier |
 |:---:|---:|---|---|---|
-| ☐ | 01 | [Déclaration et Accès](#exercice-01) | Fondations (Débutants) | [Ouvrir le code](./exercices/exercice-01.js) |
-| ☐ | 02 | [Ajout dynamique](#exercice-02) | Fondations (Débutants) | [Ouvrir le code](./exercices/exercice-02.js) |
+| ☐ | 01 | [Le profil Utilisateur](#exercice-01) | Fondations (Débutants) | [Ouvrir le code](./exercices/exercice-01.js) |
+| ☐ | 02 | [Mise à jour](#exercice-02) | Fondations (Débutants) | [Ouvrir le code](./exercices/exercice-02.js) |
 | ☐ | 03 | [Suppression](#exercice-03) | Fondations (Débutants) | [Ouvrir le code](./exercices/exercice-03.js) |
-| ☐ | 04 | [Parcourir avec un `for` classique](#exercice-04) | Fondations (Débutants) | [Ouvrir le code](./exercices/exercice-04.js) |
-| ☐ | 05 | [Chercher une valeur (Includes)](#exercice-05) | Fondations (Débutants) | [Ouvrir le code](./exercices/exercice-05.js) |
-| ☐ | 06 | [Fusion de tableaux](#exercice-06) | Fondations (Débutants) | [Ouvrir le code](./exercices/exercice-06.js) |
-| ☐ | 07 | [Tableau inversé](#exercice-07) | Fondations (Débutants) | [Ouvrir le code](./exercices/exercice-07.js) |
-| ☐ | 08 | [Recherche du Maximum et Minimum](#exercice-08) | Consolidation (Intermédiaires) | [Ouvrir le code](./exercices/exercice-08.js) |
-| ☐ | 09 | [Filtrage manuel (Les pairs)](#exercice-09) | Consolidation (Intermédiaires) | [Ouvrir le code](./exercices/exercice-09.js) |
-| ☐ | 10 | [Retirer des éléments (Splice)](#exercice-10) | Consolidation (Intermédiaires) | [Ouvrir le code](./exercices/exercice-10.js) |
-| ☐ | 11 | [Échantillonnage (Slice)](#exercice-11) | Consolidation (Intermédiaires) | [Ouvrir le code](./exercices/exercice-11.js) |
-| ☐ | 12 | [Le Dédoublonneur](#exercice-12) | Consolidation (Intermédiaires) | [Ouvrir le code](./exercices/exercice-12.js) |
-| ☐ | 13 | [Comparaison de tableaux](#exercice-13) | Consolidation (Intermédiaires) | [Ouvrir le code](./exercices/exercice-13.js) |
-| ☐ | 14 | [Rotation de tableau](#exercice-14) | Consolidation (Intermédiaires) | [Ouvrir le code](./exercices/exercice-14.js) |
-| ☐ | 15 | [Fusion Triée](#exercice-15) | Défi (Avancés) | [Ouvrir le code](./exercices/exercice-15.js) |
-| ☐ | 16 | [Scraping : Extraction de données mixtes](#exercice-16) | Défi (Avancés) | [Ouvrir le code](./exercices/exercice-16.js) |
-| ☐ | 17 | [Occurrences](#exercice-17) | Défi (Avancés) | [Ouvrir le code](./exercices/exercice-17.js) |
-| ☐ | 18 | [Aplatie (Flatten)](#exercice-18) | Défi (Avancés) | [Ouvrir le code](./exercices/exercice-18.js) |
-| ☐ | 19 | [Recherche Binaire (Concept de base)](#exercice-19) | Défi (Avancés) | [Ouvrir le code](./exercices/exercice-19.js) |
-| ☐ | 20 | [Générateur de combinaisons](#exercice-20) | Défi (Avancés) | [Ouvrir le code](./exercices/exercice-20.js) |
+| ☐ | 04 | [Vérification d'existence](#exercice-04) | Fondations (Débutants) | [Ouvrir le code](./exercices/exercice-04.js) |
+| ☐ | 05 | [Extraction des clés](#exercice-05) | Fondations (Débutants) | [Ouvrir le code](./exercices/exercice-05.js) |
+| ☐ | 06 | [Extraction des valeurs](#exercice-06) | Fondations (Débutants) | [Ouvrir le code](./exercices/exercice-06.js) |
+| ☐ | 07 | [Tableau d'objets basique](#exercice-07) | Fondations (Débutants) | [Ouvrir le code](./exercices/exercice-07.js) |
+| ☐ | 08 | [Recherche dans un tableau d'objets](#exercice-08) | Consolidation (Intermédiaires) | [Ouvrir le code](./exercices/exercice-08.js) |
+| ☐ | 09 | [Filtrage de données](#exercice-09) | Consolidation (Intermédiaires) | [Ouvrir le code](./exercices/exercice-09.js) |
+| ☐ | 10 | [Comptage de valeurs](#exercice-10) | Consolidation (Intermédiaires) | [Ouvrir le code](./exercices/exercice-10.js) |
+| ☐ | 11 | [Clonage simple (Spread operator)](#exercice-11) | Consolidation (Intermédiaires) | [Ouvrir le code](./exercices/exercice-11.js) |
+| ☐ | 12 | [Méthode d'objet (this)](#exercice-12) | Consolidation (Intermédiaires) | [Ouvrir le code](./exercices/exercice-12.js) |
+| ☐ | 13 | [Fusion d'objets](#exercice-13) | Consolidation (Intermédiaires) | [Ouvrir le code](./exercices/exercice-13.js) |
+| ☐ | 14 | [Destructuration (Destructuring)](#exercice-14) | Consolidation (Intermédiaires) | [Ouvrir le code](./exercices/exercice-14.js) |
+| ☐ | 15 | [Simulation de Parsing JSON](#exercice-15) | Défi (Avancés) | [Ouvrir le code](./exercices/exercice-15.js) |
+| ☐ | 16 | [Imbrication complexe (Nested objects)](#exercice-16) | Défi (Avancés) | [Ouvrir le code](./exercices/exercice-16.js) |
+| ☐ | 17 | [Nettoyage de Scraping avec des Objets](#exercice-17) | Défi (Avancés) | [Ouvrir le code](./exercices/exercice-17.js) |
+| ☐ | 18 | [Comparaison d'objets (Deep Equal concept)](#exercice-18) | Défi (Avancés) | [Ouvrir le code](./exercices/exercice-18.js) |
+| ☐ | 19 | [Regroupement (Group By)](#exercice-19) | Défi (Avancés) | [Ouvrir le code](./exercices/exercice-19.js) |
+| ☐ | 20 | [Deep Copy vs Shallow Copy](#exercice-20) | Défi (Avancés) | [Ouvrir le code](./exercices/exercice-20.js) |
 
 ## 🟢 Niveau 1 : Fondations (Débutants)
 
 
 <a id="exercice-01"></a>
 
-### Exercice 01 — Déclaration et Accès
+### Exercice 01 — Le profil Utilisateur
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-01.js`](./exercices/exercice-01.js)
 
 #### 🎯 Mission
 
-Déclarez un tableau contenant vos 5 couleurs préférées. Affichez la première et la troisième couleur.
+Créez un objet `utilisateur` avec les propriétés `nom`, `age`, et `estAdmin`.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-01.js
+node day06/exercices/exercice-01.js
 ```
 
 #### ✅ Terminé lorsque
@@ -63,21 +63,21 @@ node day05/exercices/exercice-01.js
 
 <a id="exercice-02"></a>
 
-### Exercice 02 — Ajout dynamique
+### Exercice 02 — Mise à jour
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-02.js`](./exercices/exercice-02.js)
 
 #### 🎯 Mission
 
-Créez un tableau vide `invites = []`. Ajoutez-y successivement "Yassine", "Sara", puis "Amine" en utilisant des méthodes de tableau.
+Changez l'âge de l'utilisateur précédent pour l'augmenter de 1, et ajoutez-lui une propriété `email`.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-02.js
+node day06/exercices/exercice-02.js
 ```
 
 #### ✅ Terminé lorsque
@@ -98,14 +98,14 @@ node day05/exercices/exercice-02.js
 
 #### 🎯 Mission
 
-Prenez le tableau précédent. Retirez le dernier invité (Amine) et affichez le tableau mis à jour.
+Supprimez la propriété `estAdmin` de l'objet `utilisateur`.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-03.js
+node day06/exercices/exercice-03.js
 ```
 
 #### ✅ Terminé lorsque
@@ -119,21 +119,21 @@ node day05/exercices/exercice-03.js
 
 <a id="exercice-04"></a>
 
-### Exercice 04 — Parcourir avec un `for` classique
+### Exercice 04 — Vérification d'existence
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-04.js`](./exercices/exercice-04.js)
 
 #### 🎯 Mission
 
-Créez `nombres = [10, 20, 30, 40]`. Utilisez une boucle `for` (avec `i = 0` jusqu'à `length`) pour afficher chaque nombre multiplié par 2.
+Créez une fonction `possedePropriete(obj, cle)` qui retourne `true` si la clé existe dans l'objet, sinon `false`. *(Indice : vous pouvez utiliser l'opérateur `in` ou vérifier si c'est `!== undefined`)*.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-04.js
+node day06/exercices/exercice-04.js
 ```
 
 #### ✅ Terminé lorsque
@@ -147,21 +147,21 @@ node day05/exercices/exercice-04.js
 
 <a id="exercice-05"></a>
 
-### Exercice 05 — Chercher une valeur (Includes)
+### Exercice 05 — Extraction des clés
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-05.js`](./exercices/exercice-05.js)
 
 #### 🎯 Mission
 
-Vérifiez si "Marrakech" est présent dans le tableau `villes = ["Rabat", "Casablanca", "Tanger"]`. Affichez `true` ou `false`.
+Utilisez `Object.keys()` sur votre objet utilisateur pour récupérer un tableau contenant toutes ses clés, et affichez sa longueur.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-05.js
+node day06/exercices/exercice-05.js
 ```
 
 #### ✅ Terminé lorsque
@@ -175,21 +175,21 @@ node day05/exercices/exercice-05.js
 
 <a id="exercice-06"></a>
 
-### Exercice 06 — Fusion de tableaux
+### Exercice 06 — Extraction des valeurs
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-06.js`](./exercices/exercice-06.js)
 
 #### 🎯 Mission
 
-Vous avez `groupe1 = ["A", "B"]` et `groupe2 = ["C", "D"]`. Fusionnez-les pour obtenir `["A", "B", "C", "D"]`.
+Utilisez `Object.values()` pour récupérer un tableau contenant toutes les valeurs de l'objet, et affichez-le.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-06.js
+node day06/exercices/exercice-06.js
 ```
 
 #### ✅ Terminé lorsque
@@ -203,21 +203,21 @@ node day05/exercices/exercice-06.js
 
 <a id="exercice-07"></a>
 
-### Exercice 07 — Tableau inversé
+### Exercice 07 — Tableau d'objets basique
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-07.js`](./exercices/exercice-07.js)
 
 #### 🎯 Mission
 
-Prenez un tableau `[1, 2, 3, 4, 5]` et inversez son ordre pour qu'il devienne `[5, 4, 3, 2, 1]`. *(Astuce: la méthode `.reverse()` existe).*
+Créez un tableau contenant 3 objets représentant des `livres` (titre, auteur). Affichez le titre du 2ème livre.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-07.js
+node day06/exercices/exercice-07.js
 ```
 
 #### ✅ Terminé lorsque
@@ -235,21 +235,21 @@ node day05/exercices/exercice-07.js
 
 <a id="exercice-08"></a>
 
-### Exercice 08 — Recherche du Maximum et Minimum
+### Exercice 08 — Recherche dans un tableau d'objets
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-08.js`](./exercices/exercice-08.js)
 
 #### 🎯 Mission
 
-Créez une fonction qui parcourt un tableau de nombres aléatoires et retourne le plus grand et le plus petit nombre, SANS utiliser `Math.max` ni `Math.min`.
+Vous avez un tableau de `candidats` (chaque objet a `nom` et `score`). Écrivez une fonction qui retourne le nom du candidat ayant le meilleur score.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-08.js
+node day06/exercices/exercice-08.js
 ```
 
 #### ✅ Terminé lorsque
@@ -263,21 +263,21 @@ node day05/exercices/exercice-08.js
 
 <a id="exercice-09"></a>
 
-### Exercice 09 — Filtrage manuel (Les pairs)
+### Exercice 09 — Filtrage de données
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-09.js`](./exercices/exercice-09.js)
 
 #### 🎯 Mission
 
-Créez une fonction qui prend un tableau de nombres, par exemple `[1, 2, 3, 4, 5, 6]`, et retourne un NOUVEAU tableau ne contenant que les nombres pairs.
+Dans le même tableau de candidats, écrivez une fonction qui retourne un nouveau tableau contenant uniquement les candidats ayant un score >= 10.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-09.js
+node day06/exercices/exercice-09.js
 ```
 
 #### ✅ Terminé lorsque
@@ -291,21 +291,21 @@ node day05/exercices/exercice-09.js
 
 <a id="exercice-10"></a>
 
-### Exercice 10 — Retirer des éléments (Splice)
+### Exercice 10 — Comptage de valeurs
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-10.js`](./exercices/exercice-10.js)
 
 #### 🎯 Mission
 
-Vous avez `mois = ["Jan", "Fev", "MARS_EN_TROP", "Avril"]`. Utilisez `.splice()` pour retirer "MARS_EN_TROP" sans toucher aux autres.
+Vous avez une chaîne de caractères `"abracadabra"`. Créez une fonction qui retourne un objet comptant le nombre d'occurrences de chaque lettre. (ex: `{ a: 5, b: 2, r: 2, c: 1, d: 1 }`).
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-10.js
+node day06/exercices/exercice-10.js
 ```
 
 #### ✅ Terminé lorsque
@@ -319,21 +319,21 @@ node day05/exercices/exercice-10.js
 
 <a id="exercice-11"></a>
 
-### Exercice 11 — Échantillonnage (Slice)
+### Exercice 11 — Clonage simple (Spread operator)
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-11.js`](./exercices/exercice-11.js)
 
 #### 🎯 Mission
 
-À partir d'un grand tableau de 100 éléments, utilisez `.slice()` pour extraire les 10 premiers (la première page).
+Créez un objet `original = { a: 1, b: 2 }`. Utilisez la syntaxe "spread" (`...`) pour créer une copie `copie` qui n'est pas une référence, puis ajoutez `c: 3` à la copie sans modifier l'original.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-11.js
+node day06/exercices/exercice-11.js
 ```
 
 #### ✅ Terminé lorsque
@@ -347,21 +347,21 @@ node day05/exercices/exercice-11.js
 
 <a id="exercice-12"></a>
 
-### Exercice 12 — Le Dédoublonneur
+### Exercice 12 — Méthode d'objet (this)
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-12.js`](./exercices/exercice-12.js)
 
 #### 🎯 Mission
 
-Écrivez une fonction qui prend un tableau avec des doublons `[1, 2, 2, 3, 4, 4, 5]` et retourne un nouveau tableau sans doublons.
+Créez un objet `compteBancaire` avec une propriété `solde` et une méthode `deposer(montant)`. La méthode doit utiliser `this.solde` pour augmenter le solde actuel.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-12.js
+node day06/exercices/exercice-12.js
 ```
 
 #### ✅ Terminé lorsque
@@ -375,21 +375,21 @@ node day05/exercices/exercice-12.js
 
 <a id="exercice-13"></a>
 
-### Exercice 13 — Comparaison de tableaux
+### Exercice 13 — Fusion d'objets
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-13.js`](./exercices/exercice-13.js)
 
 #### 🎯 Mission
 
-Créez une fonction `sontEgaux(tab1, tab2)` qui vérifie si deux tableaux contiennent exactement les mêmes éléments dans le même ordre. (Rappel: `[1] == [1]` donne false en JS !).
+Vous avez `infoClient = { nom: "Ali" }` et `infoPaiement = { methode: "Carte" }`. Fusionnez-les en un seul objet en utilisant `Object.assign()` ou le spread operator.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-13.js
+node day06/exercices/exercice-13.js
 ```
 
 #### ✅ Terminé lorsque
@@ -403,21 +403,21 @@ node day05/exercices/exercice-13.js
 
 <a id="exercice-14"></a>
 
-### Exercice 14 — Rotation de tableau
+### Exercice 14 — Destructuration (Destructuring)
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-14.js`](./exercices/exercice-14.js)
 
 #### 🎯 Mission
 
-Prenez `[1, 2, 3]`. Décalez tout vers la droite pour obtenir `[3, 1, 2]`. (Indice : enlevez le dernier et ajoutez-le au début).
+Soit `let etudiant = { prenom: "Sara", ville: "Rabat", note: 16 }`. En une seule ligne de code, extrayez le prénom et la ville dans deux variables distinctes portant le même nom.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-14.js
+node day06/exercices/exercice-14.js
 ```
 
 #### ✅ Terminé lorsque
@@ -435,21 +435,23 @@ node day05/exercices/exercice-14.js
 
 <a id="exercice-15"></a>
 
-### Exercice 15 — Fusion Triée
+### Exercice 15 — Simulation de Parsing JSON
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-15.js`](./exercices/exercice-15.js)
 
 #### 🎯 Mission
 
-Vous avez deux tableaux DÉJÀ triés : `[1, 3, 5]` et `[2, 4, 6]`. Écrivez un algorithme pour les fusionner en un seul tableau trié `[1, 2, 3, 4, 5, 6]` (sans utiliser `.sort()`).
+Vous recevez de l'API web la chaîne de caractères (JSON) suivante : 
+`'{"id":1, "titre":"Apprendre le JS", "vu":false}'`.
+Transformez cette chaîne en véritable objet JavaScript, passez `vu` à `true`, et re-transformez-le en chaîne JSON.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-15.js
+node day06/exercices/exercice-15.js
 ```
 
 #### ✅ Terminé lorsque
@@ -463,21 +465,21 @@ node day05/exercices/exercice-15.js
 
 <a id="exercice-16"></a>
 
-### Exercice 16 — Scraping : Extraction de données mixtes
+### Exercice 16 — Imbrication complexe (Nested objects)
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-16.js`](./exercices/exercice-16.js)
 
 #### 🎯 Mission
 
-Vous avez "scrappé" une page mal codée et obtenu ce tableau : `["Prix", 15.5, null, "Quantite", 3, undefined, "Total", 46.5]`. Écrivez une fonction qui filtre ce tableau pour ne garder QUE les nombres valides.
+Créez un objet `entreprise` qui a un `nom`, et une propriété `employes` qui est un tableau d'objets. Affichez le prénom du deuxième employé.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-16.js
+node day06/exercices/exercice-16.js
 ```
 
 #### ✅ Terminé lorsque
@@ -491,21 +493,21 @@ node day05/exercices/exercice-16.js
 
 <a id="exercice-17"></a>
 
-### Exercice 17 — Occurrences
+### Exercice 17 — Nettoyage de Scraping avec des Objets
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-17.js`](./exercices/exercice-17.js)
 
 #### 🎯 Mission
 
-Créez une fonction qui prend un tableau de mots `["pomme", "banane", "pomme", "orange", "banane", "pomme"]`. Comptez combien de fois chaque élément apparaît. (Vous pouvez afficher : "pomme: 3, banane: 2, orange: 1").
+Vous avez scrappé une liste de prix : `[{ article: "PC", prix: "1500$" }, { article: "Souris", prix: "25$" }]`. Écrivez une fonction qui modifie les objets pour que le `prix` devienne un vrai `Number` (enlever le "$").
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-17.js
+node day06/exercices/exercice-17.js
 ```
 
 #### ✅ Terminé lorsque
@@ -519,21 +521,21 @@ node day05/exercices/exercice-17.js
 
 <a id="exercice-18"></a>
 
-### Exercice 18 — Aplatie (Flatten)
+### Exercice 18 — Comparaison d'objets (Deep Equal concept)
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-18.js`](./exercices/exercice-18.js)
 
 #### 🎯 Mission
 
-Vous avez un tableau à 2 dimensions (une grille) : `[[1, 2], [3, 4], [5, 6]]`. Transformez-le en un tableau à 1 dimension : `[1, 2, 3, 4, 5, 6]`.
+Écrivez une fonction `sontIdentiques(obj1, obj2)` qui vérifie si deux objets littéraux (sans objets imbriqués) ont exactement les mêmes clés et les mêmes valeurs.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-18.js
+node day06/exercices/exercice-18.js
 ```
 
 #### ✅ Terminé lorsque
@@ -547,21 +549,21 @@ node day05/exercices/exercice-18.js
 
 <a id="exercice-19"></a>
 
-### Exercice 19 — Recherche Binaire (Concept de base)
+### Exercice 19 — Regroupement (Group By)
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-19.js`](./exercices/exercice-19.js)
 
 #### 🎯 Mission
 
-Contrairement à la recherche linéaire (parcourir tout le tableau un par un), la recherche binaire cherche un élément dans un tableau TRIÉ en coupant l'espace de recherche en deux à chaque fois. Essayez de comprendre et d'implémenter ce concept pour trouver l'index de `45` dans `[10, 20, 30, 40, 45, 50, 60]`.
+Vous avez un tableau `[{nom: "A", groupe: 1}, {nom: "B", groupe: 2}, {nom: "C", groupe: 1}]`. Créez une fonction qui retourne un objet regroupant ces données : `{ 1: [{nom: "A"}, {nom: "C"}], 2: [{nom: "B"}] }`.
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-19.js
+node day06/exercices/exercice-19.js
 ```
 
 #### ✅ Terminé lorsque
@@ -575,21 +577,21 @@ node day05/exercices/exercice-19.js
 
 <a id="exercice-20"></a>
 
-### Exercice 20 — Générateur de combinaisons
+### Exercice 20 — Deep Copy vs Shallow Copy
 
 > [!TIP]
 > **Fichier à modifier :** [`exercices/exercice-20.js`](./exercices/exercice-20.js)
 
 #### 🎯 Mission
 
-Étant donné un tableau de 3 couleurs `["Rouge", "Vert", "Bleu"]`, générez toutes les paires possibles : `["Rouge-Vert", "Rouge-Bleu", "Vert-Rouge", ...]`.
+Créez un objet contenant un autre objet imbriqué. Clonez-le avec le Spread operator (`...`). Montrez (avec console.log) que modifier l'objet imbriqué dans la copie modifie AUSSI l'original. Expliquez pourquoi en commentaire, et donnez la solution moderne (ex: `structuredClone` ou JSON parse/stringify).
 
 
 
 #### ▶️ Tester le programme
 
 ```bash
-node day05/exercices/exercice-20.js
+node day06/exercices/exercice-20.js
 ```
 
 #### ✅ Terminé lorsque

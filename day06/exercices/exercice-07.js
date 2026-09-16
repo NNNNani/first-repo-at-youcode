@@ -1,14 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
  * JOUR 06 · EXERCICE 07 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * TABLEAU INVERSÉ
+ * TABLEAU D'OBJETS BASIQUE
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Prenez un tableau [1, 2, 3, 4, 5] et inversez son ordre pour qu'il devienne [5, 4, 3, 2, 1]. *(Astuce: la méthode .reverse() existe).*
+ * Créez un tableau contenant 3 objets représentant des livres (titre, auteur). Affichez le titre du 2ème livre.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-07
- * ▶️ Commande : node day05/exercices/exercice-07.js
+ * ▶️ Commande : node day06/exercices/exercice-07.js
  */
 'use strict';
 
@@ -17,7 +17,9 @@
 // TODO: écris ta solution ici.
 
 
- 
-let t = [1, 2, 3, 4, 5] ; 
+const livres = [
+    { titre: "fes", auteur: "2002" },
+    { titre: "oujda", auteur: "2021" },
+    { titre: "nador", auteur: "2026" } ] ;
 
-console.log(t.reverse()) ;
+console.log(livres[1].titre) ; 

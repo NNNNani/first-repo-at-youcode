@@ -2,20 +2,21 @@
 
 [← Exercices pratiques](../03-exercices.md) · [Tableau de bord](../README.md)
 
-## Gestion de Panier E-Commerce
+## Le Pokedex (Annuaire de données)
 
 > [!IMPORTANT]
 > Ce challenge sert à réunir les notions de la journée. Découpe le problème en petites étapes avant de coder.
 
 ## 🎯 Mission
 
-**Contexte :** Vous codez la logique du panier d'achat d'une boutique en ligne.
+**Contexte :** Vous devez gérer une mini-base de données d'utilisateurs.
 
 **Consignes :**
-1. Vous avez un tableau représentant les ID des articles dans le panier : `panier = [101, 105, 101, 102]`.
-2. Créez une fonction `ajouterAuPanier(id)` qui ajoute l'article au tableau.
-3. Créez une fonction `retirerDuPanier(id)` qui retire **Toutes les occurrences** de cet ID du panier (ex: retirer 101).
-4. (Bonus) Créez une fonction `afficherQuantites()` qui compte et affiche le panier sous forme : `Article 101 : 2 exemplaires, Article 105 : 1 exemplaire...`
+1. Vous avez un tableau `utilisateurs = []`.
+2. Créez une fonction `ajouterUtilisateur(nom, email)` qui crée un objet `{ id, nom, email }` (générez un ID unique simple) et l'ajoute au tableau.
+3. Créez une fonction `trouverParEmail(email)` qui retourne l'objet utilisateur correspondant.
+4. Créez une fonction `supprimerParId(id)` qui supprime l'utilisateur du tableau.
+5. Créez une fonction `afficherAnnuaire()` qui affiche joliment la liste complète dans la console.
 
 ## 📁 Fichier à modifier
 
@@ -32,7 +33,7 @@
 ## ▶️ Exécuter
 
 ```bash
-node day05/challenge/challenge.js
+node day06/challenge/challenge.js
 ```
 
 ## 💾 Sauvegarder
@@ -40,7 +41,7 @@ node day05/challenge/challenge.js
 Crée un commit dédié lorsque le challenge fonctionne :
 
 ```bash
-git add day05/challenge
+git add day06/challenge
 git commit -m "jour 06 : terminer le challenge"
 git push
 ```

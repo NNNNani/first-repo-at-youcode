@@ -1,14 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
  * JOUR 06 · EXERCICE 09 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * FILTRAGE MANUEL (LES PAIRS)
+ * FILTRAGE DE DONNÉES
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez une fonction qui prend un tableau de nombres, par exemple [1, 2, 3, 4, 5, 6], et retourne un NOUVEAU tableau ne contenant que les nombres pairs.
+ * Dans le même tableau de candidats, écrivez une fonction qui retourne un nouveau tableau contenant uniquement les candidats ayant un score >= 10.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-09
- * ▶️ Commande : node day05/exercices/exercice-09.js
+ * ▶️ Commande : node day06/exercices/exercice-09.js
  */
 'use strict';
 
@@ -16,16 +16,20 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
- 
-function tableau(arr) {
-    let n = [] ;
 
-    for ( let num  of arr ) {
-        if ( num % 2 == 0 ) {
-            n.push(num) ;
-        }
-    }
-    return n ;
+const tableau={
+    nom:["Anass","taha","khalide","younes","fati"] , 
+    score:[80,61,52,30,48] 
 }
 
-console.log(tableau([1, 2, 3, 4, 5, 6])) ;
+function validercandidat(obj,key,key1){
+    let tab=[] ; 
+        for( let i=0;i<obj[key].length;i++){
+        if (obj[key][i] > 51 ){
+            // ana khadamt 3la 100 machi 10
+            tab.push(obj[key1][i]) ; 
+        }
+    }
+    return tab ;
+}
+console.log(validercandidat(tableau,"score","nom")) ; 

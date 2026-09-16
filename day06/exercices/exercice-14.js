@@ -1,14 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
  * JOUR 06 · EXERCICE 14 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * ROTATION DE TABLEAU
+ * DESTRUCTURATION (DESTRUCTURING)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Prenez [1, 2, 3]. Décalez tout vers la droite pour obtenir [3, 1, 2]. (Indice : enlevez le dernier et ajoutez-le au début).
+ * Soit let etudiant = { prenom: "Sara", ville: "Rabat", note: 16 }. En une seule ligne de code, extrayez le prénom et la ville dans deux variables distinctes portant le même nom.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-14
- * ▶️ Commande : node day05/exercices/exercice-14.js
+ * ▶️ Commande : node day06/exercices/exercice-14.js
  */
 'use strict';
 
@@ -16,10 +16,14 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
- 
-let t = [1, 2, 3] ;
 
-let D = t.pop() ; 
-t.unshift(D) ; 
+const etudiant = { 
+    prenom: "Sara",
+    ville: "Rabat", 
+    note: 16 
+} 
 
-console.log(t) ; 
+const { prenom, ville } = etudiant ;
+
+console.log(prenom) ;
+console.log(ville) ;

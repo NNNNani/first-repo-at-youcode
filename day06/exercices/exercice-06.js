@@ -1,14 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
  * JOUR 06 · EXERCICE 06 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * FUSION DE TABLEAUX
+ * EXTRACTION DES VALEURS
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Vous avez groupe1 = ["A", "B"] et groupe2 = ["C", "D"]. Fusionnez-les pour obtenir ["A", "B", "C", "D"].
+ * Utilisez Object.values() pour récupérer un tableau contenant toutes les valeurs de l'objet, et affichez-le.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-06
- * ▶️ Commande : node day05/exercices/exercice-06.js
+ * ▶️ Commande : node day06/exercices/exercice-06.js
  */
 'use strict';
 
@@ -16,8 +16,10 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
- 
-let g1 = [ "A" , "B" ]
-let g2 = [ "C" , "D" ]
 
-console.log(g1.concat(g2));
+const utilisateur={
+  nom:"Anass",
+  age:23,
+  estAdmin:false
+}
+console.log(Object.values(utilisateur))

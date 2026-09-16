@@ -1,14 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
  * JOUR 06 · EXERCICE 13 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * COMPARAISON DE TABLEAUX
+ * FUSION D'OBJETS
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez une fonction sontEgaux(tab1, tab2) qui vérifie si deux tableaux contiennent exactement les mêmes éléments dans le même ordre. (Rappel: [1] == [1] donne false en JS !).
+ * Vous avez infoClient = { nom: "Ali" } et infoPaiement = { methode: "Carte" }. Fusionnez-les en un seul objet en utilisant Object.assign() ou le spread operator.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-13
- * ▶️ Commande : node day05/exercices/exercice-13.js
+ * ▶️ Commande : node day06/exercices/exercice-13.js
  */
 'use strict';
 
@@ -17,20 +17,12 @@
 // TODO: écris ta solution ici.
 
 
+'use strict';
+
+let infoClient = { nom: "Anass" } ;
+let infoPaiement = { methode: "Carte" } ;
+
+let clientComplet = { ...infoClient, ...infoPaiement } ;
 
 
-function sontEgaux(tab1, tab2) {
-
-    if (tab1.length != tab2.length) {
-        return false ;
-    }
-    for (let i = 0; i < tab1.length; i++) {
-        if ( tab1[i] != tab2[i] ) {
-            return false ;
-        }
-    }
-    return true ; 
-}
-
-console.log(sontEgaux([ 1, 2,  3], [ 1,  2,  3])) ;
-console.log(sontEgaux([ 1, 2,  3], [ 1,  3 , 2])) ;
+console.log(clientComplet) ;

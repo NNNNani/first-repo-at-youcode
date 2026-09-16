@@ -1,14 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
  * JOUR 06 · EXERCICE 18 · NIVEAU 3 : DÉFI (AVANCÉS)
- * APLATIE (FLATTEN)
+ * COMPARAISON D'OBJETS (DEEP EQUAL CONCEPT)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Vous avez un tableau à 2 dimensions (une grille) : [[1, 2], [3, 4], [5, 6]]. Transformez-le en un tableau à 1 dimension : [1, 2, 3, 4, 5, 6].
+ * Écrivez une fonction sontIdentiques(obj1, obj2) qui vérifie si deux objets littéraux (sans objets imbriqués) ont exactement les mêmes clés et les mêmes valeurs.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-18
- * ▶️ Commande : node day05/exercices/exercice-18.js
+ * ▶️ Commande : node day06/exercices/exercice-18.js
  */
 'use strict';
 
@@ -17,14 +17,23 @@
 // TODO: écris ta solution ici.
 
 
-function grile(tab) {
-    let arr = [] ;
+function sontIdentiques(obj1, obj2) {
+    let t1 = Object.keys(obj1) ;
+    let t2 = Object.keys(obj2) ;
 
-    for ( let ntb of tab){
-        for  ( let v of ntb ){
-            arr.push(v) ;
+    if (t1.length !== t2.length) {
+        return false;
+    }
+    for (let i = 0; i < t1.length; i++) {
+        let key = t1[i] ; 
+
+        if (obj1[key] !== obj2[key]) {
+            return false ;
         }
     }
-    return arr ;
+    return true ; 
 }
-console.log( grile ( [[1, 2], [3, 4], [5, 6]] )) ;
+
+console.log("Test 1 (Identiques) :", 
+    sontIdentiques({ nom: "Anass", age: 23 }, { nom: "Anass", age: 23 })
+); 

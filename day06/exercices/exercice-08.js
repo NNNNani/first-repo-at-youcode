@@ -1,14 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
  * JOUR 06 · EXERCICE 08 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * RECHERCHE DU MAXIMUM ET MINIMUM
+ * RECHERCHE DANS UN TABLEAU D'OBJETS
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez une fonction qui parcourt un tableau de nombres aléatoires et retourne le plus grand et le plus petit nombre, SANS utiliser Math.max ni Math.min.
+ * Vous avez un tableau de candidats (chaque objet a nom et score). Écrivez une fonction qui retourne le nom du candidat ayant le meilleur score.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-08
- * ▶️ Commande : node day05/exercices/exercice-08.js
+ * ▶️ Commande : node day06/exercices/exercice-08.js
  */
 'use strict';
 
@@ -16,17 +16,22 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
+'use strict';
 
-function tableau(tab) {
-    let max = tab[0] ; 
-    let min = tab[0] ; 
+let tableau = [
+    { nom: "Anass", score: 11 },
+    { nom: "Nani", score: 99 },
+    { nom: "Nano", score: 88 } ] ;
 
-    for (let num of tab) {
-        if (num  > max) max = num ;
-        if (num  <  min) min = num ; 
+function meilleurCandidat(liste) {
+    let meilleur = liste[0] ;
+
+    for (let i = 1; i < liste.length; i++) {
+        if (liste[i].score > meilleur.score) {
+            meilleur = liste[i] ; 
+        }
     }
-    return [max, min] ;
+    return meilleur.nom ; 
 }
 
-let ts = [12, 5, 89, 3, 45] ;
-console.log(tableau( ts)) ; 
+console.log(meilleurCandidat(tableau)) ;

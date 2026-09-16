@@ -1,14 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
  * JOUR 06 · EXERCICE 01 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * DÉCLARATION ET ACCÈS
+ * LE PROFIL UTILISATEUR
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Déclarez un tableau contenant vos 5 couleurs préférées. Affichez la première et la troisième couleur.
+ * Créez un objet utilisateur avec les propriétés nom, age, et estAdmin.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-01
- * ▶️ Commande : node day05/exercices/exercice-01.js
+ * ▶️ Commande : node day06/exercices/exercice-01.js
  */
 'use strict';
 
@@ -16,8 +16,11 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
- 
-let colors = ["black","red","blue","green","yellow"] ; 
 
-console.log(colors[ 0 ]) ; 
-console.log(colors[ 1 ]) ;
+const utilisateur = {
+  nom:"Anass" ,
+  age:23,
+  estAdmin:false
+
+}
+console.log(utilisateur)

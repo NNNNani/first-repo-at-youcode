@@ -17,7 +17,7 @@
 
 ### Question 01
 
-> En JavaScript, le premier élément d'un tableau se trouve à quel index ?
+> Quelle est la différence entre la notation pointée (`objet.propriete`) et la notation crochets (`objet["propriete"]`) ? Quand est-il obligatoire d'utiliser les crochets ?
 
 - [ ] J'ai recherché et compris la notion.
 
@@ -29,7 +29,7 @@
 
 ### Question 02
 
-> Quelle est la différence entre les méthodes `.push()` et `.unshift()` ?
+> Que se passe-t-il si on tente d'accéder à une propriété qui n'existe pas dans un objet ?
 
 - [ ] J'ai recherché et compris la notion.
 
@@ -41,7 +41,7 @@
 
 ### Question 03
 
-> Quelle est la différence entre `.pop()` et `.shift()` ?
+> Comment ajouter une nouvelle propriété à un objet déjà existant ?
 
 - [ ] J'ai recherché et compris la notion.
 
@@ -53,7 +53,7 @@
 
 ### Question 04
 
-> Que retourne la propriété `.length` d'un tableau vide `[]` ?
+> Comment supprimer une propriété d'un objet (mot-clé spécifique) ?
 
 - [ ] J'ai recherché et compris la notion.
 
@@ -65,7 +65,7 @@
 
 ### Question 05
 
-> Quelle est la différence entre une boucle `for...in` et une boucle `for...of` ? Laquelle est recommandée pour parcourir les *valeurs* d'un tableau ?
+> Quelle est la boucle spécifique recommandée pour parcourir les *clés* d'un objet ? (`for...of` ou `for...in`) ?
 
 - [ ] J'ai recherché et compris la notion.
 
@@ -77,7 +77,7 @@
 
 ### Question 06
 
-> Comment vérifier si une variable est bien un tableau (puisque `typeof []` renvoie `"object"`) ?
+> Qu'est-ce que le mot-clé `this` lorsqu'il est utilisé à l'intérieur d'une méthode (une fonction) d'un objet ?
 
 - [ ] J'ai recherché et compris la notion.
 
@@ -89,7 +89,7 @@
 
 ### Question 07
 
-> Quelle méthode utiliseriez-vous pour fusionner deux tableaux en un seul ?
+> Qu'est-ce que le format **JSON** (JavaScript Object Notation) par rapport à un objet JavaScript classique ?
 
 - [ ] J'ai recherché et compris la notion.
 
@@ -101,7 +101,7 @@
 
 ### Question 08
 
-> Quelle est la différence entre `.slice()` et `.splice()` lors de la manipulation d'un tableau ?
+> Quelle méthode native permet de convertir un objet JS en chaîne JSON (String) ?
 
 - [ ] J'ai recherché et compris la notion.
 
@@ -113,7 +113,7 @@
 
 ### Question 09
 
-> Les tableaux en JavaScript sont-ils passés par *valeur* ou par *référence* lorsqu'ils sont assignés à une nouvelle variable ?
+> Quelle méthode native permet de convertir une chaîne JSON en objet JS ?
 
 - [ ] J'ai recherché et compris la notion.
 
@@ -125,7 +125,7 @@
 
 ### Question 10
 
-> Peut-on stocker des types différents dans un même tableau en JS (ex: nombres, strings, booléens en même temps) ? Est-ce une bonne pratique ?
+> Comme les tableaux, les objets sont assignés par "référence". Que cela signifie-t-il si vous faites `const obj2 = obj1;` et que vous modifiez `obj2` ?
 
 - [ ] J'ai recherché et compris la notion.
 

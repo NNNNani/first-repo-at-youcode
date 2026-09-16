@@ -1,14 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
  * JOUR 06 · EXERCICE 19 · NIVEAU 3 : DÉFI (AVANCÉS)
- * RECHERCHE BINAIRE (CONCEPT DE BASE)
+ * REGROUPEMENT (GROUP BY)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Contrairement à la recherche linéaire (parcourir tout le tableau un par un), la recherche binaire cherche un élément dans un tableau TRIÉ en coupant l'espace de recherche en deux à chaque fois. Essayez de comprendre et d'implémenter ce concept pour trouver l'index de 45 dans [10, 20, 30, 40, 45, 50, 60].
+ * Vous avez un tableau [{nom: "A", groupe: 1}, {nom: "B", groupe: 2}, {nom: "C", groupe: 1}]. Créez une fonction qui retourne un objet regroupant ces données : { 1: [{nom: "A"}, {nom: "C"}], 2: [{nom: "B"}] }.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-19
- * ▶️ Commande : node day05/exercices/exercice-19.js
+ * ▶️ Commande : node day06/exercices/exercice-19.js
  */
 'use strict';
 
@@ -16,25 +16,25 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
- 
-function rechercheBinaire(tab, nbr) {
-    let debut = 0 ;
-    let fin = tab.length - 1 ;
 
-    while (debut <= fin) {
-        let milieu = Math.floor((debut + fin) / 2);
+let personnes = [
+    { nom: "A", groupe: 1 },
+    { nom: "B", groupe: 2 },
+    { nom: "C", groupe: 1 }
+];
 
-        if (tab[milieu] === nbr) {
-            return milieu ; 
+function regrouperParGroupe(tableau) {
+    let resultat = {};
+
+    for (let item of tableau) {
+        const { groupe, ...reste } = item;
+
+        if (!resultat[groupe]) {
+            resultat[groupe] = [];
         }
-        if (tab[milieu] < nbr) {
-            debut = milieu + 1 ;  
-        }else{
-            fin = milieu - 1 ;    
-        }
+        resultat[groupe].push(reste);
     }
-    return -1 ;
+    return resultat;
 }
 
-let ind = [10, 20, 30, 40, 45, 50, 60] ;
-console.log(rechercheBinaire(ind, 45)) ; 
+console.log(regrouperParGroupe(personnes));

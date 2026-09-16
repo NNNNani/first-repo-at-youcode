@@ -1,14 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
  * JOUR 06 · EXERCICE 16 · NIVEAU 3 : DÉFI (AVANCÉS)
- * SCRAPING : EXTRACTION DE DONNÉES MIXTES
+ * IMBRICATION COMPLEXE (NESTED OBJECTS)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Vous avez "scrappé" une page mal codée et obtenu ce tableau : ["Prix", 15.5, null, "Quantite", 3, undefined, "Total", 46.5]. Écrivez une fonction qui filtre ce tableau pour ne garder QUE les nombres valides.
+ * Créez un objet entreprise qui a un nom, et une propriété employes qui est un tableau d'objets. Affichez le prénom du deuxième employé.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-16
- * ▶️ Commande : node day05/exercices/exercice-16.js
+ * ▶️ Commande : node day06/exercices/exercice-16.js
  */
 'use strict';
 
@@ -17,19 +17,13 @@
 // TODO: écris ta solution ici.
 
 
-
-function filtrerNombres(arr) {
-    let nr = [] ;
-    let i = 0 ;
-
-    while (i < arr.length) {
-        if (typeof arr[i] == "number" && !Number.isNaN(arr[i])) {
-            nr.push(arr[i]) ;
-        }
-        i++ ;
-    }
-    return nr ;
+let entreprise = {
+    nom: "TechCorp", 
+    employes : [
+        { prenom : "Anass", skill :  "Cybre" },
+        { prenom : "taha", skill : "Net" },
+        { prenom : "khalide", skill : "Data" }
+    ]
 }
 
-let t = ["Prix", 15.5, null, "Quantite", 3, undefined, "Total", 46.5];
-console.log(filtrerNombres(t));
+console.log(entreprise.employes[2].prenom);
