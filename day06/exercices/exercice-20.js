@@ -1,0 +1,37 @@
+/**
+ * ─────────────────────────────────────────────────────────────
+ * JOUR 06 · EXERCICE 20 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * GÉNÉRATEUR DE COMBINAISONS
+ * ─────────────────────────────────────────────────────────────
+ *
+ * 🎯 MISSION
+ * Étant donné un tableau de 3 couleurs ["Rouge", "Vert", "Bleu"], générez toutes les paires possibles : ["Rouge-Vert", "Rouge-Bleu", "Vert-Rouge", ...].
+ *
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-20
+ * ▶️ Commande : node day05/exercices/exercice-20.js
+ */
+'use strict';
+
+// 1. Identifie les données nécessaires.
+// 2. Écris ta solution sous cette ligne.
+// TODO: écris ta solution ici.
+
+ 
+function colors(tab){
+    let i = 0
+    let arr = []
+
+    while( i < tab.length ){
+        let j = 0
+        while(j < tab.length){
+            if( i != j ){
+                arr.push(tab[i] + "-" + tab[j])
+            }
+            j++
+        }
+        i++
+    }
+    return arr
+}
+console.log(colors(["Rouge", "Vert", "Bleu"]));
+
