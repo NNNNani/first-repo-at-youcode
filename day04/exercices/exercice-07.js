@@ -19,10 +19,14 @@
 
 
 
-let email = "   utilisateur@email.com   " ;
+let email = "      @     utilisateur@email.com      @.     " ;
 let nemail = email.trim() ;
 
 console.log(nemail) ;
+
+
+
+
 
 
 
