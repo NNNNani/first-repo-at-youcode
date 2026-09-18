@@ -16,6 +16,8 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
+
+
 let v = "Safi,Youssoufia,Nador,Casablanca" ;
 
 let  tableau = v.split(",") 
