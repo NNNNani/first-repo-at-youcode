@@ -1,10 +1,49 @@
-const fs = require('fs');
-const path = require('path');
-
-const fichier = path.join(__dirname, 'data.json');
-
-const apprenants = JSON.parse(
-  fs.readFileSync(fichier, 'utf8')
-);
+const apprenants = [
+  {
+    id: 1,
+    nomComplet: "Sara Dev",
+    ville: "Nador",
+    resultats: [
+      {
+        jour: 1,
+        exercicesTermines: 18,
+        totalExercices: 20,
+        challengeTermine: true
+      },
+      {
+        jour: 2,
+        exercicesTermines: 14,
+        totalExercices: 20,
+        challengeTermine: false
+      }
+    ]
+  },
+  {
+    id: 2,
+    nomComplet: "Yassine Code",
+    ville: "Oujda",
+    resultats: [
+      {
+        jour: 1,
+        exercicesTermines: 12,
+        totalExercices: 20,
+        challengeTermine: false
+      }
+    ]
+  },
+  {
+    id: 3,
+    nomComplet: "Anass Nani",
+    ville: "fes",
+    resultats: [
+      {
+        jour: 6,
+        exercicesTermines: 17,
+        totalExercices: 20,
+        challengeTermine: true
+      }
+    ]
+  }
+];
 
 module.exports = { apprenants };
