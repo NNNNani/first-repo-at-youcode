@@ -45,7 +45,7 @@ function validerResultat(jour, exercicesTermines, totalExercices) {
 
 function ajouterApprenant(apprenants, id, nom, ville) {
 
-  const existe = apprenants.some(a => a.id === id);
+  const existe = apprenants.some(apprenants => apprenants.id === id);
   if (existe) {
     return {
       succes: false,
@@ -91,7 +91,7 @@ function enregistrerResultat(
     challengeTermine: challengeTermine
   };
   const index = apprenant.resultats.findIndex(
-    r => r.jour === jour
+    resultat => resultat.jour === jour
   );
   if (index !== -1) {
     apprenant.resultats[index] = resultat;
@@ -161,7 +161,7 @@ function afficherApprenants() {
 // INTERFACE READLINE
 
 
-const rl = readline.createInterface({
+const readline = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
@@ -208,9 +208,9 @@ function traiterChoix(choix) {
       break;
     //  AJOUTER APPRENANT
     case "3":
-      rl.question("ID: ", id => {
-        rl.question("Nom complet: ", nom => {
-          rl.question("Ville: ", ville => {
+      readline.question("ID: ", id => {
+        readline.question("Nom complet: ", nom => {
+          readline.question("Ville: ", ville => {
             const res = ajouterApprenant(
               apprenants,
               Number(id),
@@ -252,7 +252,7 @@ function traiterChoix(choix) {
       break;
     // RESULTAT
     case "5":
-      rl.question("ID de l'apprenant: ", id => {
+      readline.question("ID de l'apprenant: ", id => {
         const apprenant = apprenants.find(
           a => a.id === Number(id)
         );
@@ -261,7 +261,7 @@ function traiterChoix(choix) {
           afficherMenu();
           return;
         }
-        rl.question("Jour (1-7): ", jour => {
+        readline.question("Jour (1-7): ", jour => {
           jour = Number(jour);
           if (jour < 1 || jour > 7) {
             console.log(
@@ -270,13 +270,13 @@ function traiterChoix(choix) {
             afficherMenu();
             return;
           }
-          rl.question(
+          readline.question(
             "Exercices terminés: ",
             exercices => {
-              rl.question(
+              readline.question(
                 "Total exercices: ",
                 total => {
-                  rl.question(
+                  readline.question(
                     "Challenge terminé (oui/non): ",
                     challenge => {
                       const res = enregistrerResultat(
@@ -308,7 +308,7 @@ function traiterChoix(choix) {
       break;
     //  RECHERCHE PAR NOM
     case "6":
-      rl.question(
+      readline.question(
         "Nom ou partie du nom: ",
         nom => {
           const recherche = normaliserNom(nom);
@@ -328,7 +328,7 @@ function traiterChoix(choix) {
       break;
     // FILTRER PAR NIVEAU
     case "7":
-      rl.question(
+      readline.question(
         "Niveau: ",
         niveau => {
           const resultats = apprenants.filter(
@@ -365,7 +365,7 @@ function traiterChoix(choix) {
     //  QUITTER
     case "0":
       console.log("Au revoir !");
-      rl.close();
+      readline.close();
       break;
     // CHOIX INVALIDE
     default:
