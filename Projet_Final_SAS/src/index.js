@@ -137,7 +137,7 @@ function afficherTableauDeBord() {
       `${apprenant.id} - ${apprenant.nomComplet} (${apprenant.ville}) : ${progression.pourcentage}% [${progression.niveau}]`
     );
   });
-  console.log("################################\n");
+  console.log("=================================\n");
 }
 
 
