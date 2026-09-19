@@ -109,9 +109,9 @@ function enregistrerResultat(
 
 function afficherTableauDeBord() {
 
-  console.log("\n##################################");
-  console.log("       TABLEAU DE BORD");
-  console.log("##################################");
+  console.log("\n");
+  console.log("            ###   TABLEAU DE BORD   ###");
+  console.log("--------------------------------------------------");
   console.log(
     `Nombre total d'apprenants : ${apprenants.length}`
   );
@@ -130,14 +130,14 @@ function afficherTableauDeBord() {
   console.log(
     `Progression moyenne du groupe : ${moyenne}%`
   );
-  console.log("---------------------------------");
+  console.log("--------------------------------------------------");
   apprenants.forEach(apprenant => {
     const progression = calculerProgression(apprenant);
     console.log(
       `${apprenant.id} - ${apprenant.nomComplet} (${apprenant.ville}) : ${progression.pourcentage}% [${progression.niveau}]`
     );
   });
-  console.log("=================================\n");
+  console.log("--------------------------------------------------\n");
 }
 
 
